@@ -161,6 +161,7 @@ public final class SodukoBoard extends Soduko {
                 //Use the method to check the row, column and block simulatneously 
                 //If the value is allowed
                 if (Allowed(row, column, value)) {
+                    System.out.println(row + " " + column + " " + value);
                     board[row][column] = value;
                     //This is a recursive call to iterate through the next column to check
                     if (solve(row, column + 1)) {

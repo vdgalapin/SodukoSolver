@@ -8,7 +8,7 @@
  *
  * @author galap
  */
-public class Soduko {
+public class Soduko{
     public static void main(String[] args) throws Exception{
         
         
